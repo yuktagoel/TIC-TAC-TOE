@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  margin:0;
+  padding:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 233, 236);
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+  border: 10px solid palevioletred;
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  flex: 33%;
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.square {
+flex:33%;
+height : 100%;
+border: 2px solid palevioletred;
+cursor: pointer;
+display:grid;
+place-items: center;
+font-size: 30px;
+color: palevioletred;
+}
+
+.square:active{
+  background-color:pink;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: palevioletred;
+  margin:0;
+  padding:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  display:grid;
+  height: 50;
+  background-color: pink;
+  font-size: 25px;
+  cursor: pointer;
+  padding: auto;
+}
